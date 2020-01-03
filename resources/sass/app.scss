@@ -1,0 +1,58 @@
+//
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  font-family: "Roboto";
+  background: #f9f9f9;
+  font-size: 14px;
+}
+h1, h2, h3, h4 {
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+h1 {
+  margin: 15px 0;
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.25em;
+}
+h4 {
+  font-size: 1.15em;
+}
+img {
+  max-width: 100%;
+}
+.btn {
+  padding: .5em 1em;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px rgba(0,0,0,.25);
+  font-size: .9em;
+  border: none;
+}
+.btn.btn-sm {
+  font-size: .8em;
+}
+.btn-link {
+  box-shadow: none;
+}
+
+.viewport {
+  height: calc(100vh - 49px);
+}
+.card-header {
+  background: #fff;
+}
+.table thead th {
+  border-bottom-width: 1px;
+}
+.card {
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 1px 3px .5px rgba(0,0,0,.25);
+  margin-bottom: 20px;
+}
+
+.input-group .form-control {
+  border-right: none;
+}
